@@ -21,14 +21,15 @@ import {
 } from '../ui/form'
 import { Input } from '../ui/input'
 import { Separator } from '../ui/separator'
+import { useUserState } from '@/store/user.store'
 
 const Login = () => {
 	const [isLoading, setIsLoading] = useState(false)
-	const [error, setError] = useState(false)
+	const [error, setError] = useState('')
 
 	const navigate = useNavigate()
-
 	const { setAuth } = useAuthState()
+	const { setUser } = useUserState()
 
 	const form = useForm<z.infer<typeof loginSchema>>({
 		resolver: zodResolver(loginSchema),
@@ -40,6 +41,7 @@ const Login = () => {
 		setIsLoading(true)
 		try {
 			const res = await signInWithEmailAndPassword(auth, email, password)
+			setUser(res.user)
 			navigate('/')
 		} catch (error) {
 			const result = error as Error

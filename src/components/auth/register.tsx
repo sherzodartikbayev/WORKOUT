@@ -21,13 +21,15 @@ import { useNavigate } from 'react-router-dom'
 import { Alert, AlertDescription, AlertTitle } from '../ui/alert'
 import { RiAlertLine } from 'react-icons/ri'
 import FillLoading from '../shared/fill-loading'
+import { useUserState } from '@/store/user.store'
 
 const Register = () => {
 	const [isLoading, setIsLoading] = useState(false)
-	const [error, setError] = useState(false)
+	const [error, setError] = useState('')
 
-	const { setAuth } = useAuthState()
 	const navigate = useNavigate()
+	const { setAuth } = useAuthState()
+	const { setUser } = useUserState()
 
 	const form = useForm<z.infer<typeof registerSchema>>({
 		resolver: zodResolver(registerSchema),
@@ -39,6 +41,7 @@ const Register = () => {
 		setIsLoading(true)
 		try {
 			const res = await createUserWithEmailAndPassword(auth, email, password)
+			setUser(res.user)
 			navigate('/')
 		} catch (error) {
 			const result = error as Error
