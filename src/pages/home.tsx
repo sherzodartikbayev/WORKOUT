@@ -23,9 +23,11 @@ const Home = () => {
 
 	return (
 		<>
-			<div className='w-full h-screen flex items-center'>
-				<div className='max-w-xl ml-60 flex h-full flex-col justify-center'>
-					<h1 className='text-9xl font-semibold uppercase'>Workout with me</h1>
+			<div className='w-full h-screen flex items-center flex-wrap'>
+				<div className='max-w-xl lg:ml-60 flex h-full flex-col flex-wrap justify-center max-md:mx-16 max-md:text-center'>
+					<h1 className='lg:text-9xl font-semibold uppercase max-md:text-4xl mb-3'>
+						Workout with me
+					</h1>
 					<p className='text-muted-foreground'>
 						A huge selection of health and fitness content, healthy repices and
 						transformation stories to help you get find and stay fit!
@@ -58,7 +60,7 @@ const Home = () => {
 
 					<div className='mt-24'>
 						<p className='text-muted-foreground'>AS FUATURED IN</p>
-						<div className='flex items-center gap-4 mt-2'>
+						<div className='flex items-center flex-wrap gap-4 mt-2 max-md:justify-center'>
 							{featuredItems.map((Icon, index) => (
 								<Icon key={index} className='w-12 h-12' />
 							))}
@@ -66,17 +68,17 @@ const Home = () => {
 					</div>
 				</div>
 
-				<img src={men} alt='men' className='w-1/4' />
+				<img src={men} alt='men' className='w-1/4 max-md:hidden' />
 			</div>
 
-			<div className='container max-w-5xl mx-auto'>
+			<div className='container max-w-5xl mx-auto max-md:px-6'>
 				<h1 className='text-4xl'>Not sure where to start?</h1>
 				<p className='mt-2 text-muted-foreground'>
 					Programs offer day-today guidance on an interactive calendar to keep
 					you on track.
 				</p>
 
-				<div className='grid grid-cols-3 gap-4 my-8'>
+				<div className='grid lg:grid-cols-3 max-md:grid-cols-1 gap-4 my-8'>
 					{programs.map(item => (
 						<Card
 							key={item.title}

@@ -7,7 +7,6 @@ import {
 	GithubAuthProvider,
 	GoogleAuthProvider,
 	signInWithPopup,
-	signInWithRedirect,
 } from 'firebase/auth'
 import { auth } from '@/firebase'
 import FillLoading from '../shared/fill-loading'
@@ -40,7 +39,7 @@ const Social = () => {
 		<>
 			{isLoading && <FillLoading />}
 			<Separator className='my-3' />
-			<div className='grid grid-cols-2 gap-2'>
+			<div className='grid grid-cols-2 max-md:grid-cols-1 gap-2'>
 				<Button
 					className='h-12'
 					variant={'secondary'}

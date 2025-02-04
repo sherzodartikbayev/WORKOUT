@@ -9,10 +9,10 @@ const Navbar = () => {
 	const { user } = useUserState()
 
 	return (
-		<div className='w-full h-[10vh] border-b fixed inset-0 z-50 bg-background'>
+		<div className='w-full h-[10vh] border-b fixed inset-0 z-50 bg-background max-md:px-6 px-10 max-md:py-5'>
 			<div className='container max-w-6xl mx-auto h-full flex justify-between items-center'>
 				<Link to='/'>
-					<h1 className='text-2xl font-bold uppercase cursor-pointer'>
+					<h1 className='text-2xl max-sm:text-xl font-bold uppercase cursor-pointer'>
 						workout
 					</h1>
 				</Link>
@@ -22,7 +22,7 @@ const Navbar = () => {
 						<a
 							href={nav.path}
 							key={nav.path}
-							className='font-medium hover:underline'
+							className='font-medium hover:underline max-md:hidden'
 						>
 							{nav.label}
 						</a>
@@ -30,7 +30,7 @@ const Navbar = () => {
 					<ModeToggle />
 					{user ? (
 						<>
-						<UserBox />
+							<UserBox />
 						</>
 					) : (
 						<Link to='/auth'>
