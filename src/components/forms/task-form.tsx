@@ -13,7 +13,7 @@ import { toast } from 'sonner'
 interface Props {
 	title?: string
 	isEdit?: boolean
-	onClose?: () => void
+	onClose?: () => void 
 	handler: (values: z.infer<typeof taskSchema>) => Promise<void | null>
 }
 
@@ -67,6 +67,7 @@ const TaskForm = ({ title = '', handler, isEdit, onClose }: Props) => {
 								type='button'
 								disabled={isLoading}
 								variant={'destructive'}
+								onClick={onClose}
 							>
 								Cancel
 							</Button>

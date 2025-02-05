@@ -23,7 +23,7 @@ const Home = () => {
 
 	return (
 		<>
-			<div className='w-full h-screen flex items-center flex-wrap'>
+			<div className='w-full h-screen flex items-center flex-wrap lg:mt-20'>
 				<div className='max-w-xl lg:ml-60 flex h-full flex-col flex-wrap justify-center max-md:mx-16 max-md:text-center'>
 					<h1 className='lg:text-9xl font-semibold uppercase max-md:text-4xl mb-3'>
 						Workout with me
