@@ -24,8 +24,6 @@ The project was developed using the following technologies:
 
 🖥 Application Preview
 
-![Workout Screenshot](./New Project.png)
-
 The application features a responsive and modern design, optimized for all screen sizes, including mobile, tablet, and desktop users.
 
 🔧 Installation & Setup
