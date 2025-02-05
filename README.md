@@ -2,7 +2,7 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-![Workout](./New Project.png)
+![New Project](https://github.com/user-attachments/assets/cf65d8c6-cfc9-4005-9f6f-73f1651c96ca)
 
 Workout is a modern web application promoting fitness and a healthy lifestyle. The platform provides users with recommendations on healthy eating, various workout programs, and structured training plans. The website is fully responsive, ensuring a seamless experience on all devices.
 
@@ -66,15 +66,15 @@ This project was a great learning experience! Throughout the development process
 
 👨‍💻 About the Developer
 
-Hello! I'm Sherzod, a 16-year-old junior frontend developer. I am passionate about React, TypeScript, Next.js, and other frontend technologies. My goal is to establish a major IT company and become one of the top developers in the industry.
+Hello! I'm Sherzod, a 16-year-old frontend developer. I am passionate about React, TypeScript, Next.js, and other frontend technologies. My goal is to establish a major IT company and become one of the top developers in the industry.
 
 If you find my projects interesting, feel free to follow me on:
 
-GitHub: sherzodartikbayev 
+GitHub: [sherzodartikbayev ](https://github.com/sherzodartikbayev)
 
-Telegram: @sherzod_artikbayev
+Telegram: [@sherzod_artikbayev](https://t.me/sherzod_artikbayev)
 
-LinkedIn: sherzod3105
+LinkedIn: [sherzod3105](https://www.linkedin.com/in/sherzod3105?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
 📜 License
 
