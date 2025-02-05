@@ -1,7 +1,5 @@
 # WORKOUT - Gym training app.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
 ![New Project](https://github.com/user-attachments/assets/cf65d8c6-cfc9-4005-9f6f-73f1651c96ca)
 
 Workout is a modern web application promoting fitness and a healthy lifestyle. The platform provides users with recommendations on healthy eating, various workout programs, and structured training plans. The website is fully responsive, ensuring a seamless experience on all devices.
