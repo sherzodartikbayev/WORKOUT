@@ -1,50 +1,84 @@
-# React + TypeScript + Vite
+# WORKOUT - Gym training app.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+![Workout](./New Project.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Workout is a modern web application promoting fitness and a healthy lifestyle. The platform provides users with recommendations on healthy eating, various workout programs, and structured training plans. The website is fully responsive, ensuring a seamless experience on all devices.
 
-## Expanding the ESLint configuration
+🚀 Technologies
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+The project was developed using the following technologies:
 
-- Configure the top-level `parserOptions` property like this:
+⚛ React - For building UI components
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+📜 TypeScript - Ensuring code safety and structure
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+🎨 Tailwind CSS - For styling and responsive design
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+🌍 React Router DOM - For navigation between pages
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+🔥 Firebase - For authentication and backend services
+
+🔄 React Query - For data management and caching
+
+🏗 ShadCN UI - For elegant UI components
+
+🖥 Application Preview
+
+![Workout Screenshot](./New Project.png)
+
+The application features a responsive and modern design, optimized for all screen sizes, including mobile, tablet, and desktop users.
+
+🔧 Installation & Setup
+
+To run the project locally, follow these steps:
+
+# Clone the repository
+git clone https://github.com/username/workout.git
+cd workout
+
+# Install dependencies
+npm install  # or npm install
+
+# Start the development server
+npm run dev  # or npm run dev
+
+📌 Features
+
+🔹 Workout Programs - Various training and fitness plans
+
+🔹 Healthy Eating Recommendations
+
+🔹 User Authentication (via Firebase Authentication)
+
+🔹 Flexible and fast design
+
+🔹 Responsive UI for a smooth experience
+
+🔹 Workout time tracking
+
+🔹 Support for Dark and Light mode
+
+💡 Experience
+
+This project was a great learning experience! Throughout the development process, I gained valuable knowledge and deepened my understanding of React Query, Firebase Authentication, and ShadCN UI. The hands-on experience helped me enhance my frontend development skills.
+
+👨‍💻 About the Developer
+
+Hello! I'm Sherzod, a 16-year-old junior frontend developer. I am passionate about React, TypeScript, Next.js, and other frontend technologies. My goal is to establish a major IT company and become one of the top developers in the industry.
+
+If you find my projects interesting, feel free to follow me on:
+
+GitHub: sherzodartikbayev 
+
+Telegram: @sherzod_artikbayev
+
+LinkedIn: sherzod3105
+
+📜 License
+
+Distributed under the MIT License.
+
+If you like this project, please ⭐ star it and share your feedback!
+
