@@ -6,7 +6,7 @@ Workout is a modern web application promoting fitness and a healthy lifestyle. T
 
 
 
-🚀 Technologies
+# 🚀 Technologies
 
 The project was developed using the following technologies:
 
@@ -30,7 +30,7 @@ The application features a responsive and modern design, optimized for all scree
 
 
 
-🔧 Installation & Setup
+# 🔧 Installation & Setup
 
 To run the project locally, follow these steps:
 
@@ -51,7 +51,7 @@ npm run dev
 
 
 
-📌 Features
+# 📌 Features
 
 🔹 Workout Programs - Various training and fitness plans
 
@@ -73,7 +73,7 @@ This project was a great learning experience! Throughout the development process
 
 
 
-👨‍💻 About the Developer
+# 👨‍💻 About the Developer
 
 Hello! I'm Sherzod, a 16-year-old frontend developer. I am passionate about React, TypeScript, Next.js, and other frontend technologies. My goal is to establish a major IT company and become one of the top developers in the industry.
 
