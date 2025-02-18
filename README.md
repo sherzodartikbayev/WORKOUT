@@ -4,6 +4,8 @@
 
 Workout is a modern web application promoting fitness and a healthy lifestyle. The platform provides users with recommendations on healthy eating, various workout programs, and structured training plans. The website is fully responsive, ensuring a seamless experience on all devices.
 
+
+
 🚀 Technologies
 
 The project was developed using the following technologies:
@@ -26,19 +28,28 @@ The project was developed using the following technologies:
 
 The application features a responsive and modern design, optimized for all screen sizes, including mobile, tablet, and desktop users.
 
+
+
 🔧 Installation & Setup
 
 To run the project locally, follow these steps:
 
+```bash
 # Clone the repository
-git clone https://github.com/username/workout.git
-cd workout
+git clone https://github.com/sherzodartikbayev/WORKOUT.git
+```
 
+```bash
 # Install dependencies
-npm install  # or npm install
+npm install
+```
 
+```bash
 # Start the development server
-npm run dev  # or npm run dev
+npm run dev
+```
+
+
 
 📌 Features
 
@@ -60,6 +71,8 @@ npm run dev  # or npm run dev
 
 This project was a great learning experience! Throughout the development process, I gained valuable knowledge and deepened my understanding of React Query, Firebase Authentication, and ShadCN UI. The hands-on experience helped me enhance my frontend development skills.
 
+
+
 👨‍💻 About the Developer
 
 Hello! I'm Sherzod, a 16-year-old frontend developer. I am passionate about React, TypeScript, Next.js, and other frontend technologies. My goal is to establish a major IT company and become one of the top developers in the industry.
@@ -72,9 +85,7 @@ Telegram: [@sherzod_artikbayev](https://t.me/sherzod_artikbayev)
 
 LinkedIn: [sherzod3105](https://www.linkedin.com/in/sherzod3105?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
-📜 License
 
-Distributed under the MIT License.
 
 If you like this project, please ⭐ star it and share your feedback!
 
